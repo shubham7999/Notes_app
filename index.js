@@ -95,34 +95,6 @@ function shownotestome() {
     shownotestome();
    }
 
-//    let deletebtn = document.getElementsByClassName("deletebtn");
-
-//    for(let i=0;i<deletebtn.length;i++)
-//    {
-
-//      deletebtn[i].addEventListener("click" , function() {
-
-//         let notes = localStorage.getItem('notes');
-
-//         var noteobj=[];
-    
-//         if (notes !== null) {
-//             noteobj = JSON.parse(notes);
-    
-//         }
-    
-        
-//         let idx=this.id;
-    
-//         noteobj.splice(idx,1);
-    
-//         localStorage.setItem('notes' ,JSON.stringify(noteobj));
-    
-//         shownotestome();
-//         console.log(this.id);
-//     });
-
-// }
 
 
   let inputvalue = document.getElementById("searchTxt");
